@@ -1,0 +1,19 @@
+{
+    "name": "jayde/todo-app",
+    "description": "Todo-App",
+    "type": "library",
+    "license": "MID",
+    "authors": [
+        {
+            "name": "Ronak"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload" : {
+        "psr-4" : {
+            "App\\": "src/"
+        }
+    }
+}
